@@ -1,0 +1,1 @@
+{"ast":null,"code":"// Next.js API route support: https://nextjs.org/docs/api-routes/introduction\n// import { newMarkets } from '../../data'\n// export default (req, res) => {\n//   res.status(200).json(newMarkets)\n// }","map":null,"metadata":{},"sourceType":"script"}
