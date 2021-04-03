@@ -88,136 +88,387 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./pages/index.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = 2);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./pages/index.js":
-/*!************************!*\
-  !*** ./pages/index.js ***!
-  \************************/
-/*! exports provided: default, getServerSideProps */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ 2:
+/***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return Home; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"getServerSideProps\", function() { return getServerSideProps; });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ \"next/head\");\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _redux_containers_MainContainer_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../redux/containers/MainContainer.jsx */ \"./redux/containers/MainContainer.jsx\");\n/* harmony import */ var _styles_Home_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles/Home.module.css */ \"./styles/Home.module.css\");\n/* harmony import */ var _styles_Home_module_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_3__);\n\nvar _jsxFileName = \"/Users/matthewsalvador/CS/codesmith-repos/pp/nextjs-tutorial/pages/index.js\";\n\n\n\nfunction Home() {\n  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__[\"jsxDEV\"])(\"div\", {\n    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__[\"jsxDEV\"])(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {\n      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__[\"jsxDEV\"])(\"title\", {\n        children: \"MegaMarket Cards\"\n      }, void 0, false, {\n        fileName: _jsxFileName,\n        lineNumber: 9,\n        columnNumber: 9\n      }, this)\n    }, void 0, false, {\n      fileName: _jsxFileName,\n      lineNumber: 8,\n      columnNumber: 7\n    }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__[\"jsxDEV\"])(_redux_containers_MainContainer_jsx__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {}, void 0, false, {\n      fileName: _jsxFileName,\n      lineNumber: 11,\n      columnNumber: 7\n    }, this)]\n  }, void 0, true, {\n    fileName: _jsxFileName,\n    lineNumber: 7,\n    columnNumber: 5\n  }, this);\n}\nconst getServerSideProps = async context => {\n  // const res = await fetch(`http://localhost:3000/api/hello`);\n  console.log('getStaticProps fired...'); // // let clientState;\n  // let testState;\n  // // if (process.browser) {\n  // //   console.log('💩💩💩')\n  // //   testState = localStorage.getItem('key');\n  // // } else {\n  //   console.log('💩💩💩', process.browser)    \n  //   const res = await fetch(`https://api.jsonbin.io/b/605e529b838e525f311917eb`);\n  //   testState = await res.json();\n  // // }\n  // // process.browser 🔥🔥🔥\n  // console.log('🔥🔥🔥', testState);\n\n  return {\n    props: {} //   // clientState,\n    //   // markets,\n    //   testState,\n    // }\n\n  };\n};//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9wYWdlcy9pbmRleC5qcz80NGQ4Il0sIm5hbWVzIjpbIkhvbWUiLCJnZXRTZXJ2ZXJTaWRlUHJvcHMiLCJjb250ZXh0IiwiY29uc29sZSIsImxvZyIsInByb3BzIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7QUFBQTtBQUNBO0FBQ0E7QUFFZSxTQUFTQSxJQUFULEdBQWdCO0FBQzdCLHNCQUNFO0FBQUEsNEJBQ0UscUVBQUMsZ0RBQUQ7QUFBQSw2QkFDRTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQURGO0FBQUE7QUFBQTtBQUFBO0FBQUEsWUFERixlQUlFLHFFQUFDLDJFQUFEO0FBQUE7QUFBQTtBQUFBO0FBQUEsWUFKRjtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsVUFERjtBQVFEO0FBRU0sTUFBTUMsa0JBQWtCLEdBQUcsTUFBT0MsT0FBUCxJQUFtQjtBQUNuRDtBQUNBQyxTQUFPLENBQUNDLEdBQVIsQ0FBWSx5QkFBWixFQUZtRCxDQUluRDtBQUNBO0FBRUE7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBRUE7O0FBRUEsU0FBTztBQUNMQyxTQUFLLEVBQUUsRUFERixDQUVMO0FBQ0E7QUFDQTtBQUNBOztBQUxLLEdBQVA7QUFRRCxDQTNCTSIsImZpbGUiOiIuL3BhZ2VzL2luZGV4LmpzLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IEhlYWQgZnJvbSAnbmV4dC9oZWFkJ1xuaW1wb3J0IE1haW5Db250YWluZXIgZnJvbSAnLi4vcmVkdXgvY29udGFpbmVycy9NYWluQ29udGFpbmVyLmpzeCdcbmltcG9ydCBzdHlsZXMgZnJvbSAnLi4vc3R5bGVzL0hvbWUubW9kdWxlLmNzcydcblxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gSG9tZSgpIHtcbiAgcmV0dXJuIChcbiAgICA8ZGl2PlxuICAgICAgPEhlYWQ+XG4gICAgICAgIDx0aXRsZT5NZWdhTWFya2V0IENhcmRzPC90aXRsZT5cbiAgICAgIDwvSGVhZD5cbiAgICAgIDxNYWluQ29udGFpbmVyIC8+XG4gICAgPC9kaXY+XG4gIClcbn1cblxuZXhwb3J0IGNvbnN0IGdldFNlcnZlclNpZGVQcm9wcyA9IGFzeW5jIChjb250ZXh0KSA9PiB7XG4gIC8vIGNvbnN0IHJlcyA9IGF3YWl0IGZldGNoKGBodHRwOi8vbG9jYWxob3N0OjMwMDAvYXBpL2hlbGxvYCk7XG4gIGNvbnNvbGUubG9nKCdnZXRTdGF0aWNQcm9wcyBmaXJlZC4uLicpO1xuXG4gIC8vIC8vIGxldCBjbGllbnRTdGF0ZTtcbiAgLy8gbGV0IHRlc3RTdGF0ZTtcblxuICAvLyAvLyBpZiAocHJvY2Vzcy5icm93c2VyKSB7XG4gIC8vIC8vICAgY29uc29sZS5sb2coJ/Cfkqnwn5Kp8J+SqScpXG4gIC8vIC8vICAgdGVzdFN0YXRlID0gbG9jYWxTdG9yYWdlLmdldEl0ZW0oJ2tleScpO1xuICAvLyAvLyB9IGVsc2Uge1xuICAvLyAgIGNvbnNvbGUubG9nKCfwn5Kp8J+SqfCfkqknLCBwcm9jZXNzLmJyb3dzZXIpICAgIFxuICAvLyAgIGNvbnN0IHJlcyA9IGF3YWl0IGZldGNoKGBodHRwczovL2FwaS5qc29uYmluLmlvL2IvNjA1ZTUyOWI4MzhlNTI1ZjMxMTkxN2ViYCk7XG4gIC8vICAgdGVzdFN0YXRlID0gYXdhaXQgcmVzLmpzb24oKTtcbiAgLy8gLy8gfVxuICAvLyAvLyBwcm9jZXNzLmJyb3dzZXIg8J+UpfCflKXwn5SlXG5cbiAgLy8gY29uc29sZS5sb2coJ/CflKXwn5Sl8J+UpScsIHRlc3RTdGF0ZSk7XG5cbiAgcmV0dXJuIHtcbiAgICBwcm9wczoge31cbiAgICAvLyAgIC8vIGNsaWVudFN0YXRlLFxuICAgIC8vICAgLy8gbWFya2V0cyxcbiAgICAvLyAgIHRlc3RTdGF0ZSxcbiAgICAvLyB9XG4gIH1cblxufVxuIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./pages/index.js\n");
+module.exports = __webpack_require__("RNiq");
+
 
 /***/ }),
 
-/***/ "./redux/components/MarketCreator.jsx":
-/*!********************************************!*\
-  !*** ./redux/components/MarketCreator.jsx ***!
-  \********************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n\nvar _jsxFileName = \"/Users/matthewsalvador/CS/codesmith-repos/pp/nextjs-tutorial/redux/components/MarketCreator.jsx\";\n\n\nconst MarketCreator = props => {\n  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__[\"jsxDEV\"])(\"div\", {\n    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__[\"jsxDEV\"])(\"h4\", {\n      children: \"Create New Market\"\n    }, void 0, false, {\n      fileName: _jsxFileName,\n      lineNumber: 6,\n      columnNumber: 7\n    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__[\"jsxDEV\"])(\"div\", {\n      className: \"user-interface\",\n      style: styles['user-inteface'],\n      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__[\"jsxDEV\"])(\"h4\", {\n        children: \"Location: \"\n      }, void 0, false, {\n        fileName: _jsxFileName,\n        lineNumber: 8,\n        columnNumber: 9\n      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__[\"jsxDEV\"])(\"input\", {\n        id: \"text-box\",\n        style: styles['text-box'],\n        onChange: props.handleChange\n      }, void 0, false, {\n        fileName: _jsxFileName,\n        lineNumber: 9,\n        columnNumber: 9\n      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__[\"jsxDEV\"])(\"button\", {\n        id: \"submit-btn\",\n        style: styles['submit-btn'],\n        onClick: props.handleClick,\n        children: \"Add Market\"\n      }, void 0, false, {\n        fileName: _jsxFileName,\n        lineNumber: 10,\n        columnNumber: 9\n      }, undefined)]\n    }, void 0, true, {\n      fileName: _jsxFileName,\n      lineNumber: 7,\n      columnNumber: 7\n    }, undefined)]\n  }, void 0, true, {\n    fileName: _jsxFileName,\n    lineNumber: 5,\n    columnNumber: 5\n  }, undefined);\n};\n\nconst styles = {\n  'text-box': {\n    width: '200px',\n    height: '26px',\n    marginLeft: '0px'\n  },\n  '.user-interface': {\n    display: 'flex',\n    'flex-direction': 'row',\n    'align-items': 'center'\n  }\n};\n/* harmony default export */ __webpack_exports__[\"default\"] = (MarketCreator);//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZWR1eC9jb21wb25lbnRzL01hcmtldENyZWF0b3IuanN4PzkwOTIiXSwibmFtZXMiOlsiTWFya2V0Q3JlYXRvciIsInByb3BzIiwic3R5bGVzIiwiaGFuZGxlQ2hhbmdlIiwiaGFuZGxlQ2xpY2siLCJ3aWR0aCIsImhlaWdodCIsIm1hcmdpbkxlZnQiLCJkaXNwbGF5Il0sIm1hcHBpbmdzIjoiOzs7Ozs7O0FBQUE7O0FBRUEsTUFBTUEsYUFBYSxHQUFHQyxLQUFLLElBQUk7QUFDN0Isc0JBQ0U7QUFBQSw0QkFDRTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxpQkFERixlQUVFO0FBQUssZUFBUyxFQUFDLGdCQUFmO0FBQWdDLFdBQUssRUFBRUMsTUFBTSxDQUFDLGVBQUQsQ0FBN0M7QUFBQSw4QkFDRTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxtQkFERixlQUVFO0FBQU8sVUFBRSxFQUFDLFVBQVY7QUFBcUIsYUFBSyxFQUFFQSxNQUFNLENBQUMsVUFBRCxDQUFsQztBQUFnRCxnQkFBUSxFQUFFRCxLQUFLLENBQUNFO0FBQWhFO0FBQUE7QUFBQTtBQUFBO0FBQUEsbUJBRkYsZUFHRTtBQUFRLFVBQUUsRUFBQyxZQUFYO0FBQXdCLGFBQUssRUFBRUQsTUFBTSxDQUFDLFlBQUQsQ0FBckM7QUFBcUQsZUFBTyxFQUFFRCxLQUFLLENBQUNHLFdBQXBFO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLG1CQUhGO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxpQkFGRjtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsZUFERjtBQVVELENBWEQ7O0FBYUEsTUFBTUYsTUFBTSxHQUFHO0FBQ2IsY0FBWTtBQUNWRyxTQUFLLEVBQUUsT0FERztBQUVWQyxVQUFNLEVBQUUsTUFGRTtBQUdWQyxjQUFVLEVBQUU7QUFIRixHQURDO0FBT2IscUJBQW1CO0FBQ2pCQyxXQUFPLEVBQUUsTUFEUTtBQUVqQixzQkFBa0IsS0FGRDtBQUdqQixtQkFBZTtBQUhFO0FBUE4sQ0FBZjtBQWNlUiw0RUFBZiIsImZpbGUiOiIuL3JlZHV4L2NvbXBvbmVudHMvTWFya2V0Q3JlYXRvci5qc3guanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xuXG5jb25zdCBNYXJrZXRDcmVhdG9yID0gcHJvcHMgPT4ge1xuICByZXR1cm4gKFxuICAgIDxkaXY+XG4gICAgICA8aDQ+Q3JlYXRlIE5ldyBNYXJrZXQ8L2g0PlxuICAgICAgPGRpdiBjbGFzc05hbWU9J3VzZXItaW50ZXJmYWNlJyBzdHlsZT17c3R5bGVzWyd1c2VyLWludGVmYWNlJ119PlxuICAgICAgICA8aDQ+TG9jYXRpb246IDwvaDQ+XG4gICAgICAgIDxpbnB1dCBpZD0ndGV4dC1ib3gnIHN0eWxlPXtzdHlsZXNbJ3RleHQtYm94J119IG9uQ2hhbmdlPXtwcm9wcy5oYW5kbGVDaGFuZ2V9Lz5cbiAgICAgICAgPGJ1dHRvbiBpZD0nc3VibWl0LWJ0bicgc3R5bGU9e3N0eWxlc1snc3VibWl0LWJ0biddfSBvbkNsaWNrPXtwcm9wcy5oYW5kbGVDbGlja30+QWRkIE1hcmtldDwvYnV0dG9uPlxuICAgICAgPC9kaXY+XG4gICAgPC9kaXY+XG4gICk7XG59O1xuXG5jb25zdCBzdHlsZXMgPSB7XG4gICd0ZXh0LWJveCc6IHtcbiAgICB3aWR0aDogJzIwMHB4JyxcbiAgICBoZWlnaHQ6ICcyNnB4JyxcbiAgICBtYXJnaW5MZWZ0OiAnMHB4J1xuICB9LFxuXG4gICcudXNlci1pbnRlcmZhY2UnOiB7XG4gICAgZGlzcGxheTogJ2ZsZXgnLFxuICAgICdmbGV4LWRpcmVjdGlvbic6ICdyb3cnLFxuICAgICdhbGlnbi1pdGVtcyc6ICdjZW50ZXInXG4gIH1cbn1cblxuZXhwb3J0IGRlZmF1bHQgTWFya2V0Q3JlYXRvclxuIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./redux/components/MarketCreator.jsx\n");
-
-/***/ }),
-
-/***/ "./redux/components/MarketDisplay.jsx":
-/*!********************************************!*\
-  !*** ./redux/components/MarketDisplay.jsx ***!
-  \********************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n\nvar _jsxFileName = \"/Users/matthewsalvador/CS/codesmith-repos/pp/nextjs-tutorial/redux/components/MarketDisplay.jsx\";\n\n\nconst MarketDisplay = props => {\n  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__[\"jsxDEV\"])(\"div\", {\n    className: \"marketBox\",\n    style: styles.container,\n    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__[\"jsxDEV\"])(\"p\", {\n      id: \"desc\",\n      styles: styles.desc,\n      children: [\"Market ID: \", props.marketId]\n    }, void 0, true, {\n      fileName: _jsxFileName,\n      lineNumber: 6,\n      columnNumber: 7\n    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__[\"jsxDEV\"])(\"p\", {\n      id: \"desc\",\n      styles: styles.desc,\n      children: [\"Location: \", props.marketLocation]\n    }, void 0, true, {\n      fileName: _jsxFileName,\n      lineNumber: 7,\n      columnNumber: 7\n    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__[\"jsxDEV\"])(\"p\", {\n      id: \"desc\",\n      styles: styles.desc,\n      children: [\"Cards: \", props.marketCards]\n    }, void 0, true, {\n      fileName: _jsxFileName,\n      lineNumber: 8,\n      columnNumber: 7\n    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__[\"jsxDEV\"])(\"p\", {\n      id: \"desc\",\n      styles: styles.desc,\n      children: [\"% of total: \", props.marketCards ? (props.marketCards / props.totalCards * 100).toFixed(2) : '0.00']\n    }, void 0, true, {\n      fileName: _jsxFileName,\n      lineNumber: 9,\n      columnNumber: 7\n    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__[\"jsxDEV\"])(\"button\", {\n      styles: ['text-box'],\n      onClick: () => props.handleAddClick(props.marketId),\n      children: \"Add Card\"\n    }, void 0, false, {\n      fileName: _jsxFileName,\n      lineNumber: 10,\n      columnNumber: 7\n    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__[\"jsxDEV\"])(\"button\", {\n      styles: ['text-box'],\n      onClick: () => props.handleDeleteClick(props.marketId),\n      children: \"Delete Card\"\n    }, void 0, false, {\n      fileName: _jsxFileName,\n      lineNumber: 11,\n      columnNumber: 7\n    }, undefined)]\n  }, void 0, true, {\n    fileName: _jsxFileName,\n    lineNumber: 5,\n    columnNumber: 5\n  }, undefined);\n};\n\nconst styles = {\n  container: {\n    border: '1px solid black',\n    height: '100px',\n    width: '200px',\n    marginLeft: '0px'\n  },\n  'text-box': {\n    width: '200px',\n    height: '26px',\n    marginLeft: '0px'\n  }\n};\n/* harmony default export */ __webpack_exports__[\"default\"] = (MarketDisplay);//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZWR1eC9jb21wb25lbnRzL01hcmtldERpc3BsYXkuanN4PzJjYWUiXSwibmFtZXMiOlsiTWFya2V0RGlzcGxheSIsInByb3BzIiwic3R5bGVzIiwiY29udGFpbmVyIiwiZGVzYyIsIm1hcmtldElkIiwibWFya2V0TG9jYXRpb24iLCJtYXJrZXRDYXJkcyIsInRvdGFsQ2FyZHMiLCJ0b0ZpeGVkIiwiaGFuZGxlQWRkQ2xpY2siLCJoYW5kbGVEZWxldGVDbGljayIsImJvcmRlciIsImhlaWdodCIsIndpZHRoIiwibWFyZ2luTGVmdCJdLCJtYXBwaW5ncyI6Ijs7Ozs7OztBQUFBOztBQUVBLE1BQU1BLGFBQWEsR0FBSUMsS0FBRCxJQUFXO0FBQy9CLHNCQUNFO0FBQUssYUFBUyxFQUFDLFdBQWY7QUFBMkIsU0FBSyxFQUFFQyxNQUFNLENBQUNDLFNBQXpDO0FBQUEsNEJBQ0U7QUFBRyxRQUFFLEVBQUMsTUFBTjtBQUFhLFlBQU0sRUFBRUQsTUFBTSxDQUFDRSxJQUE1QjtBQUFBLGdDQUE4Q0gsS0FBSyxDQUFDSSxRQUFwRDtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsaUJBREYsZUFFRTtBQUFHLFFBQUUsRUFBQyxNQUFOO0FBQWEsWUFBTSxFQUFFSCxNQUFNLENBQUNFLElBQTVCO0FBQUEsK0JBQTZDSCxLQUFLLENBQUNLLGNBQW5EO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxpQkFGRixlQUdFO0FBQUcsUUFBRSxFQUFDLE1BQU47QUFBYSxZQUFNLEVBQUVKLE1BQU0sQ0FBQ0UsSUFBNUI7QUFBQSw0QkFBMENILEtBQUssQ0FBQ00sV0FBaEQ7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLGlCQUhGLGVBSUU7QUFBRyxRQUFFLEVBQUMsTUFBTjtBQUFhLFlBQU0sRUFBRUwsTUFBTSxDQUFDRSxJQUE1QjtBQUFBLGlDQUErQ0gsS0FBSyxDQUFDTSxXQUFOLEdBQW9CLENBQUVOLEtBQUssQ0FBQ00sV0FBTixHQUFvQk4sS0FBSyxDQUFDTyxVQUEzQixHQUF5QyxHQUExQyxFQUErQ0MsT0FBL0MsQ0FBdUQsQ0FBdkQsQ0FBcEIsR0FBZ0YsTUFBL0g7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLGlCQUpGLGVBS0U7QUFBUSxZQUFNLEVBQUUsQ0FBQyxVQUFELENBQWhCO0FBQThCLGFBQU8sRUFBRSxNQUFNUixLQUFLLENBQUNTLGNBQU4sQ0FBcUJULEtBQUssQ0FBQ0ksUUFBM0IsQ0FBN0M7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsaUJBTEYsZUFNRTtBQUFRLFlBQU0sRUFBRSxDQUFDLFVBQUQsQ0FBaEI7QUFBOEIsYUFBTyxFQUFFLE1BQU1KLEtBQUssQ0FBQ1UsaUJBQU4sQ0FBd0JWLEtBQUssQ0FBQ0ksUUFBOUIsQ0FBN0M7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsaUJBTkY7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLGVBREY7QUFVRCxDQVhEOztBQWFBLE1BQU1ILE1BQU0sR0FBRztBQUNiQyxXQUFTLEVBQUU7QUFDVFMsVUFBTSxFQUFFLGlCQURDO0FBRVRDLFVBQU0sRUFBRSxPQUZDO0FBR1RDLFNBQUssRUFBRSxPQUhFO0FBSVRDLGNBQVUsRUFBRTtBQUpILEdBREU7QUFPYixjQUFZO0FBQ1ZELFNBQUssRUFBRSxPQURHO0FBRVZELFVBQU0sRUFBRSxNQUZFO0FBR1ZFLGNBQVUsRUFBRTtBQUhGO0FBUEMsQ0FBZjtBQWNlZiw0RUFBZiIsImZpbGUiOiIuL3JlZHV4L2NvbXBvbmVudHMvTWFya2V0RGlzcGxheS5qc3guanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xuXG5jb25zdCBNYXJrZXREaXNwbGF5ID0gKHByb3BzKSA9PiB7XG4gIHJldHVybiAoXG4gICAgPGRpdiBjbGFzc05hbWU9XCJtYXJrZXRCb3hcIiBzdHlsZT17c3R5bGVzLmNvbnRhaW5lcn0+XG4gICAgICA8cCBpZD0nZGVzYycgc3R5bGVzPXtzdHlsZXMuZGVzY30+TWFya2V0IElEOiB7cHJvcHMubWFya2V0SWR9PC9wPlxuICAgICAgPHAgaWQ9J2Rlc2MnIHN0eWxlcz17c3R5bGVzLmRlc2N9PkxvY2F0aW9uOiB7cHJvcHMubWFya2V0TG9jYXRpb259PC9wPlxuICAgICAgPHAgaWQ9J2Rlc2MnIHN0eWxlcz17c3R5bGVzLmRlc2N9PkNhcmRzOiB7cHJvcHMubWFya2V0Q2FyZHN9PC9wPlxuICAgICAgPHAgaWQ9J2Rlc2MnIHN0eWxlcz17c3R5bGVzLmRlc2N9PiUgb2YgdG90YWw6IHtwcm9wcy5tYXJrZXRDYXJkcyA/ICgocHJvcHMubWFya2V0Q2FyZHMgLyBwcm9wcy50b3RhbENhcmRzKSAqIDEwMCkudG9GaXhlZCgyKSA6ICcwLjAwJ308L3A+XG4gICAgICA8YnV0dG9uIHN0eWxlcz17Wyd0ZXh0LWJveCddfSBvbkNsaWNrPXsoKSA9PiBwcm9wcy5oYW5kbGVBZGRDbGljayhwcm9wcy5tYXJrZXRJZCl9PkFkZCBDYXJkPC9idXR0b24+XG4gICAgICA8YnV0dG9uIHN0eWxlcz17Wyd0ZXh0LWJveCddfSBvbkNsaWNrPXsoKSA9PiBwcm9wcy5oYW5kbGVEZWxldGVDbGljayhwcm9wcy5tYXJrZXRJZCl9PkRlbGV0ZSBDYXJkPC9idXR0b24+XG4gICAgPC9kaXY+XG4gIClcbn07XG5cbmNvbnN0IHN0eWxlcyA9IHtcbiAgY29udGFpbmVyOiB7XG4gICAgYm9yZGVyOiAnMXB4IHNvbGlkIGJsYWNrJyxcbiAgICBoZWlnaHQ6ICcxMDBweCcsXG4gICAgd2lkdGg6ICcyMDBweCcsXG4gICAgbWFyZ2luTGVmdDogJzBweCdcbiAgfSxcbiAgJ3RleHQtYm94Jzoge1xuICAgIHdpZHRoOiAnMjAwcHgnLFxuICAgIGhlaWdodDogJzI2cHgnLFxuICAgIG1hcmdpbkxlZnQ6ICcwcHgnXG4gIH1cbn1cblxuZXhwb3J0IGRlZmF1bHQgTWFya2V0RGlzcGxheTtcbiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./redux/components/MarketDisplay.jsx\n");
-
-/***/ }),
-
-/***/ "./redux/components/MarketsDisplay.jsx":
-/*!*********************************************!*\
-  !*** ./redux/components/MarketsDisplay.jsx ***!
-  \*********************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _MarketDisplay_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./MarketDisplay.jsx */ \"./redux/components/MarketDisplay.jsx\");\n\nvar _jsxFileName = \"/Users/matthewsalvador/CS/codesmith-repos/pp/nextjs-tutorial/redux/components/MarketsDisplay.jsx\";\n\n\n\nconst MarketsDisplay = props => {\n  const displays = [];\n\n  for (let i = 0; i < props.marketList.length; i++) {\n    displays.push( /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__[\"jsxDEV\"])(_MarketDisplay_jsx__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {\n      marketId: props.marketList[i].marketId,\n      marketLocation: props.marketList[i].location,\n      marketCards: props.marketList[i].cards,\n      totalCards: props.marketList[i].totalCards\n    }, `Market Display ${i}`, false, {\n      fileName: _jsxFileName,\n      lineNumber: 8,\n      columnNumber: 19\n    }, undefined));\n  }\n\n  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__[\"jsxDEV\"])(\"div\", {\n    className: \"displayBox\",\n    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__[\"jsxDEV\"])(\"h4\", {\n      children: \"Markets\"\n    }, void 0, false, {\n      fileName: _jsxFileName,\n      lineNumber: 19,\n      columnNumber: 7\n    }, undefined), displays]\n  }, void 0, true, {\n    fileName: _jsxFileName,\n    lineNumber: 18,\n    columnNumber: 5\n  }, undefined);\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (MarketsDisplay);//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZWR1eC9jb21wb25lbnRzL01hcmtldHNEaXNwbGF5LmpzeD85MWViIl0sIm5hbWVzIjpbIk1hcmtldHNEaXNwbGF5IiwicHJvcHMiLCJkaXNwbGF5cyIsImkiLCJtYXJrZXRMaXN0IiwibGVuZ3RoIiwicHVzaCIsIm1hcmtldElkIiwibG9jYXRpb24iLCJjYXJkcyIsInRvdGFsQ2FyZHMiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7O0FBQUE7QUFDQTs7QUFFQSxNQUFNQSxjQUFjLEdBQUlDLEtBQUQsSUFBVztBQUVoQyxRQUFNQyxRQUFRLEdBQUcsRUFBakI7O0FBQ0EsT0FBSyxJQUFJQyxDQUFDLEdBQUcsQ0FBYixFQUFnQkEsQ0FBQyxHQUFHRixLQUFLLENBQUNHLFVBQU4sQ0FBaUJDLE1BQXJDLEVBQTZDRixDQUFDLEVBQTlDLEVBQWtEO0FBQ2hERCxZQUFRLENBQUNJLElBQVQsZUFBYyxxRUFBQywwREFBRDtBQUNaLGNBQVEsRUFBRUwsS0FBSyxDQUFDRyxVQUFOLENBQWlCRCxDQUFqQixFQUFvQkksUUFEbEI7QUFFWixvQkFBYyxFQUFFTixLQUFLLENBQUNHLFVBQU4sQ0FBaUJELENBQWpCLEVBQW9CSyxRQUZ4QjtBQUdaLGlCQUFXLEVBQUVQLEtBQUssQ0FBQ0csVUFBTixDQUFpQkQsQ0FBakIsRUFBb0JNLEtBSHJCO0FBSVosZ0JBQVUsRUFBRVIsS0FBSyxDQUFDRyxVQUFOLENBQWlCRCxDQUFqQixFQUFvQk87QUFKcEIsT0FLTixrQkFBaUJQLENBQUUsRUFMYjtBQUFBO0FBQUE7QUFBQTtBQUFBLGlCQUFkO0FBT0Q7O0FBRUQsc0JBQ0U7QUFBSyxhQUFTLEVBQUMsWUFBZjtBQUFBLDRCQUNFO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLGlCQURGLEVBRUlELFFBRko7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLGVBREY7QUFNRCxDQW5CRDs7QUFxQmVGLDZFQUFmIiwiZmlsZSI6Ii4vcmVkdXgvY29tcG9uZW50cy9NYXJrZXRzRGlzcGxheS5qc3guanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xuaW1wb3J0IE1hcmtldERpc3BsYXkgZnJvbSAnLi9NYXJrZXREaXNwbGF5LmpzeCdcblxuY29uc3QgTWFya2V0c0Rpc3BsYXkgPSAocHJvcHMpID0+IHtcbiAgXG4gIGNvbnN0IGRpc3BsYXlzID0gW107XG4gIGZvciAobGV0IGkgPSAwOyBpIDwgcHJvcHMubWFya2V0TGlzdC5sZW5ndGg7IGkrKykge1xuICAgIGRpc3BsYXlzLnB1c2goPE1hcmtldERpc3BsYXkgXG4gICAgICBtYXJrZXRJZD17cHJvcHMubWFya2V0TGlzdFtpXS5tYXJrZXRJZH0gXG4gICAgICBtYXJrZXRMb2NhdGlvbj17cHJvcHMubWFya2V0TGlzdFtpXS5sb2NhdGlvbn0gXG4gICAgICBtYXJrZXRDYXJkcz17cHJvcHMubWFya2V0TGlzdFtpXS5jYXJkc30gXG4gICAgICB0b3RhbENhcmRzPXtwcm9wcy5tYXJrZXRMaXN0W2ldLnRvdGFsQ2FyZHN9XG4gICAgICBrZXk9e2BNYXJrZXQgRGlzcGxheSAke2l9YH1cbiAgICAvPik7XG4gIH1cbiAgXG4gIHJldHVybihcbiAgICA8ZGl2IGNsYXNzTmFtZT1cImRpc3BsYXlCb3hcIj5cbiAgICAgIDxoND5NYXJrZXRzPC9oND5cbiAgICAgIHsgZGlzcGxheXMgfVxuICAgIDwvZGl2PlxuICApO1xufTtcblxuZXhwb3J0IGRlZmF1bHQgTWFya2V0c0Rpc3BsYXk7Il0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./redux/components/MarketsDisplay.jsx\n");
-
-/***/ }),
-
-/***/ "./redux/components/TotalsDisplay.jsx":
-/*!********************************************!*\
-  !*** ./redux/components/TotalsDisplay.jsx ***!
-  \********************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n\nvar _jsxFileName = \"/Users/matthewsalvador/CS/codesmith-repos/pp/nextjs-tutorial/redux/components/TotalsDisplay.jsx\";\n\n\nconst TotalsDisplay = props => /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__[\"jsxDEV\"])(\"div\", {\n  className: \"innerbox\",\n  id: \"totals\",\n  children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__[\"jsxDEV\"])(\"label\", {\n    htmlFor: \"totalCards\",\n    children: \"Total Cards:\"\n  }, void 0, false, {\n    fileName: _jsxFileName,\n    lineNumber: 5,\n    columnNumber: 5\n  }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__[\"jsxDEV\"])(\"span\", {\n    id: \"totalCards\",\n    children: props.totalCards\n  }, void 0, false, {\n    fileName: _jsxFileName,\n    lineNumber: 6,\n    columnNumber: 5\n  }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__[\"jsxDEV\"])(\"p\", {\n    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__[\"jsxDEV\"])(\"label\", {\n      htmlFor: \"totalMarkets\",\n      children: \"Total Markets:\"\n    }, void 0, false, {\n      fileName: _jsxFileName,\n      lineNumber: 8,\n      columnNumber: 7\n    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__[\"jsxDEV\"])(\"span\", {\n      id: \"totalCards\",\n      children: props.totalMarkets\n    }, void 0, false, {\n      fileName: _jsxFileName,\n      lineNumber: 9,\n      columnNumber: 7\n    }, undefined)]\n  }, void 0, true, {\n    fileName: _jsxFileName,\n    lineNumber: 7,\n    columnNumber: 5\n  }, undefined)]\n}, void 0, true, {\n  fileName: _jsxFileName,\n  lineNumber: 4,\n  columnNumber: 3\n}, undefined);\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (TotalsDisplay);//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZWR1eC9jb21wb25lbnRzL1RvdGFsc0Rpc3BsYXkuanN4P2U5ZDMiXSwibmFtZXMiOlsiVG90YWxzRGlzcGxheSIsInByb3BzIiwidG90YWxDYXJkcyIsInRvdGFsTWFya2V0cyJdLCJtYXBwaW5ncyI6Ijs7Ozs7OztBQUFBOztBQUVBLE1BQU1BLGFBQWEsR0FBR0MsS0FBSyxpQkFDekI7QUFBSyxXQUFTLEVBQUMsVUFBZjtBQUEwQixJQUFFLEVBQUMsUUFBN0I7QUFBQSwwQkFDRTtBQUFPLFdBQU8sRUFBQyxZQUFmO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLGVBREYsZUFFRTtBQUFNLE1BQUUsRUFBQyxZQUFUO0FBQUEsY0FBdUJBLEtBQUssQ0FBQ0M7QUFBN0I7QUFBQTtBQUFBO0FBQUE7QUFBQSxlQUZGLGVBR0U7QUFBQSw0QkFDRTtBQUFPLGFBQU8sRUFBQyxjQUFmO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLGlCQURGLGVBRUU7QUFBTSxRQUFFLEVBQUMsWUFBVDtBQUFBLGdCQUF1QkQsS0FBSyxDQUFDRTtBQUE3QjtBQUFBO0FBQUE7QUFBQTtBQUFBLGlCQUZGO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxlQUhGO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxhQURGOztBQVVlSCw0RUFBZiIsImZpbGUiOiIuL3JlZHV4L2NvbXBvbmVudHMvVG90YWxzRGlzcGxheS5qc3guanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xuXG5jb25zdCBUb3RhbHNEaXNwbGF5ID0gcHJvcHMgPT4gKFxuICA8ZGl2IGNsYXNzTmFtZT1cImlubmVyYm94XCIgaWQ9XCJ0b3RhbHNcIj5cbiAgICA8bGFiZWwgaHRtbEZvcj1cInRvdGFsQ2FyZHNcIj5Ub3RhbCBDYXJkczo8L2xhYmVsPlxuICAgIDxzcGFuIGlkPVwidG90YWxDYXJkc1wiPntwcm9wcy50b3RhbENhcmRzfTwvc3Bhbj5cbiAgICA8cD5cbiAgICAgIDxsYWJlbCBodG1sRm9yPVwidG90YWxNYXJrZXRzXCI+VG90YWwgTWFya2V0czo8L2xhYmVsPlxuICAgICAgPHNwYW4gaWQ9XCJ0b3RhbENhcmRzXCI+e3Byb3BzLnRvdGFsTWFya2V0c308L3NwYW4+XG4gICAgPC9wPlxuICA8L2Rpdj5cbik7XG5leHBvcnQgZGVmYXVsdCBUb3RhbHNEaXNwbGF5OyJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./redux/components/TotalsDisplay.jsx\n");
-
-/***/ }),
-
-/***/ "./redux/containers/MainContainer.jsx":
-/*!********************************************!*\
-  !*** ./redux/containers/MainContainer.jsx ***!
-  \********************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _components_TotalsDisplay_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/TotalsDisplay.jsx */ \"./redux/components/TotalsDisplay.jsx\");\n/* harmony import */ var _MarketsContainer_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./MarketsContainer.jsx */ \"./redux/containers/MarketsContainer.jsx\");\n\nvar _jsxFileName = \"/Users/matthewsalvador/CS/codesmith-repos/pp/nextjs-tutorial/redux/containers/MainContainer.jsx\";\n\nfunction ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }\n\nfunction _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }\n\nfunction _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }\n\n\n\n\n\nclass MainContainer extends react__WEBPACK_IMPORTED_MODULE_1__[\"Component\"] {\n  constructor(props) {\n    super(props);\n    this.state = {\n      totalMarkets: 0,\n      totalCards: 0,\n      // marketList: props.state,\n      marketList: [],\n      lastMarketId: 10000,\n      newLocation: ''\n    };\n    this.handleClick = this.handleClick.bind(this);\n    this.handleChange = this.handleChange.bind(this);\n  }\n\n  handleChange(e) {\n    this.setState(state => {\n      return _objectSpread(_objectSpread({}, state), {}, {\n        newLocation: e.target.value\n      });\n    });\n  }\n\n  handleClick(e) {\n    this.setState(state => {\n      // increment totalMarkets and lastMarketId\n      const lastMarketId = this.state.lastMarketId + 1;\n      const totalMarkets = this.state.totalMarkets + 1;\n      const newMarket = {\n        // what goes in here? a new market card element\n        marketId: lastMarketId,\n        location: state.newLocation,\n        cards: 0,\n        totalCards: state.totalCards\n      };\n      let marketList = state.marketList.slice();\n      marketList.push(newMarket);\n      return _objectSpread(_objectSpread({}, state), {}, {\n        marketList,\n        lastMarketId,\n        totalMarkets,\n        newLocation: this.state.newLocation\n      }); // create a newMarket object and insert into marketList\n    }, () => {\n      //save something to local storage\n      console.log('componentDidUpdate!', this.state);\n      localStorage.setItem('key', JSON.stringify(this.state));\n    });\n  }\n\n  componentDidMount() {\n    const clientState = localStorage.getItem('key');\n    console.log('hello?', clientState);\n\n    if (clientState) {\n      const {\n        lastMarketId,\n        marketList,\n        newLocation,\n        totalCards,\n        totalMarkets\n      } = JSON.parse(clientState);\n      console.log('clientState exists', marketList);\n      this.setState(state => {\n        return _objectSpread(_objectSpread({}, state), {}, {\n          marketList,\n          lastMarketId,\n          totalMarkets,\n          newLocation,\n          totalCards\n        });\n      });\n    } // else return { state };\n\n  }\n\n  render() {\n    return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__[\"jsxDEV\"])(\"div\", {\n      className: \"container\",\n      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__[\"jsxDEV\"])(\"div\", {\n        className: \"outerBox\",\n        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__[\"jsxDEV\"])(\"h1\", {\n          id: \"header\",\n          children: \"MegaMarket Loyalty Cards\"\n        }, void 0, false, {\n          fileName: _jsxFileName,\n          lineNumber: 91,\n          columnNumber: 11\n        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__[\"jsxDEV\"])(_components_TotalsDisplay_jsx__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {\n          totalCards: this.state.totalCards,\n          totalMarkets: this.state.totalMarkets\n        }, void 0, false, {\n          fileName: _jsxFileName,\n          lineNumber: 92,\n          columnNumber: 11\n        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__[\"jsxDEV\"])(_MarketsContainer_jsx__WEBPACK_IMPORTED_MODULE_3__[\"default\"], {\n          handleClick: this.handleClick,\n          handleChange: this.handleChange,\n          marketList: this.state.marketList\n        }, void 0, false, {\n          fileName: _jsxFileName,\n          lineNumber: 93,\n          columnNumber: 11\n        }, this)]\n      }, void 0, true, {\n        fileName: _jsxFileName,\n        lineNumber: 90,\n        columnNumber: 9\n      }, this)\n    }, void 0, false, {\n      fileName: _jsxFileName,\n      lineNumber: 89,\n      columnNumber: 7\n    }, this);\n  }\n\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (MainContainer);//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZWR1eC9jb250YWluZXJzL01haW5Db250YWluZXIuanN4P2U0MDkiXSwibmFtZXMiOlsiTWFpbkNvbnRhaW5lciIsIkNvbXBvbmVudCIsImNvbnN0cnVjdG9yIiwicHJvcHMiLCJzdGF0ZSIsInRvdGFsTWFya2V0cyIsInRvdGFsQ2FyZHMiLCJtYXJrZXRMaXN0IiwibGFzdE1hcmtldElkIiwibmV3TG9jYXRpb24iLCJoYW5kbGVDbGljayIsImJpbmQiLCJoYW5kbGVDaGFuZ2UiLCJlIiwic2V0U3RhdGUiLCJ0YXJnZXQiLCJ2YWx1ZSIsIm5ld01hcmtldCIsIm1hcmtldElkIiwibG9jYXRpb24iLCJjYXJkcyIsInNsaWNlIiwicHVzaCIsImNvbnNvbGUiLCJsb2ciLCJsb2NhbFN0b3JhZ2UiLCJzZXRJdGVtIiwiSlNPTiIsInN0cmluZ2lmeSIsImNvbXBvbmVudERpZE1vdW50IiwiY2xpZW50U3RhdGUiLCJnZXRJdGVtIiwicGFyc2UiLCJyZW5kZXIiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBQTtBQUNBO0FBQ0E7O0FBR0EsTUFBTUEsYUFBTixTQUE0QkMsK0NBQTVCLENBQXNDO0FBQ3BDQyxhQUFXLENBQUNDLEtBQUQsRUFBUTtBQUNqQixVQUFNQSxLQUFOO0FBQ0EsU0FBS0MsS0FBTCxHQUFhO0FBQ1hDLGtCQUFZLEVBQUUsQ0FESDtBQUVYQyxnQkFBVSxFQUFFLENBRkQ7QUFHWDtBQUNBQyxnQkFBVSxFQUFFLEVBSkQ7QUFLWEMsa0JBQVksRUFBRSxLQUxIO0FBTVhDLGlCQUFXLEVBQUU7QUFORixLQUFiO0FBUUEsU0FBS0MsV0FBTCxHQUFtQixLQUFLQSxXQUFMLENBQWlCQyxJQUFqQixDQUFzQixJQUF0QixDQUFuQjtBQUNBLFNBQUtDLFlBQUwsR0FBb0IsS0FBS0EsWUFBTCxDQUFrQkQsSUFBbEIsQ0FBdUIsSUFBdkIsQ0FBcEI7QUFDRDs7QUFFREMsY0FBWSxDQUFDQyxDQUFELEVBQUk7QUFDZCxTQUFLQyxRQUFMLENBQWVWLEtBQUQsSUFBVztBQUN2Qiw2Q0FDS0EsS0FETDtBQUVFSyxtQkFBVyxFQUFFSSxDQUFDLENBQUNFLE1BQUYsQ0FBU0M7QUFGeEI7QUFJRCxLQUxEO0FBTUQ7O0FBRUROLGFBQVcsQ0FBQ0csQ0FBRCxFQUFJO0FBQ2IsU0FBS0MsUUFBTCxDQUFlVixLQUFELElBQVc7QUFDdkI7QUFDQSxZQUFNSSxZQUFZLEdBQUcsS0FBS0osS0FBTCxDQUFXSSxZQUFYLEdBQTBCLENBQS9DO0FBQ0EsWUFBTUgsWUFBWSxHQUFHLEtBQUtELEtBQUwsQ0FBV0MsWUFBWCxHQUEwQixDQUEvQztBQUNBLFlBQU1ZLFNBQVMsR0FBRztBQUNoQjtBQUNBQyxnQkFBUSxFQUFHVixZQUZLO0FBR2hCVyxnQkFBUSxFQUFHZixLQUFLLENBQUNLLFdBSEQ7QUFJaEJXLGFBQUssRUFBRyxDQUpRO0FBS2hCZCxrQkFBVSxFQUFHRixLQUFLLENBQUNFO0FBTEgsT0FBbEI7QUFPQSxVQUFJQyxVQUFVLEdBQUdILEtBQUssQ0FBQ0csVUFBTixDQUFpQmMsS0FBakIsRUFBakI7QUFDQWQsZ0JBQVUsQ0FBQ2UsSUFBWCxDQUFnQkwsU0FBaEI7QUFJQSw2Q0FDS2IsS0FETDtBQUVFRyxrQkFGRjtBQUdFQyxvQkFIRjtBQUlFSCxvQkFKRjtBQUtFSSxtQkFBVyxFQUFFLEtBQUtMLEtBQUwsQ0FBV0s7QUFMMUIsU0FoQnVCLENBMEJ2QjtBQUNELEtBM0JELEVBMkJHLE1BQU07QUFDUDtBQUNFYyxhQUFPLENBQUNDLEdBQVIsQ0FBWSxxQkFBWixFQUFtQyxLQUFLcEIsS0FBeEM7QUFDQXFCLGtCQUFZLENBQUNDLE9BQWIsQ0FBcUIsS0FBckIsRUFBNEJDLElBQUksQ0FBQ0MsU0FBTCxDQUFlLEtBQUt4QixLQUFwQixDQUE1QjtBQUNELEtBL0JIO0FBaUNEOztBQUVEeUIsbUJBQWlCLEdBQUc7QUFDbEIsVUFBTUMsV0FBVyxHQUFHTCxZQUFZLENBQUNNLE9BQWIsQ0FBcUIsS0FBckIsQ0FBcEI7QUFDQVIsV0FBTyxDQUFDQyxHQUFSLENBQVksUUFBWixFQUFzQk0sV0FBdEI7O0FBRUEsUUFBSUEsV0FBSixFQUFpQjtBQUNmLFlBQU07QUFBRXRCLG9CQUFGO0FBQWdCRCxrQkFBaEI7QUFBNEJFLG1CQUE1QjtBQUF5Q0gsa0JBQXpDO0FBQXFERDtBQUFyRCxVQUFzRXNCLElBQUksQ0FBQ0ssS0FBTCxDQUFXRixXQUFYLENBQTVFO0FBQ0FQLGFBQU8sQ0FBQ0MsR0FBUixDQUFZLG9CQUFaLEVBQWtDakIsVUFBbEM7QUFDQSxXQUFLTyxRQUFMLENBQWVWLEtBQUQsSUFBVztBQUN2QiwrQ0FDS0EsS0FETDtBQUVFRyxvQkFGRjtBQUdFQyxzQkFIRjtBQUlFSCxzQkFKRjtBQUtFSSxxQkFMRjtBQU1FSDtBQU5GO0FBUUQsT0FURDtBQVVELEtBakJpQixDQWtCbEI7O0FBQ0Q7O0FBRUQyQixRQUFNLEdBQUc7QUFDUCx3QkFDRTtBQUFLLGVBQVMsRUFBQyxXQUFmO0FBQUEsNkJBQ0U7QUFBSyxpQkFBUyxFQUFDLFVBQWY7QUFBQSxnQ0FDRTtBQUFJLFlBQUUsRUFBQyxRQUFQO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLGdCQURGLGVBRUUscUVBQUMscUVBQUQ7QUFBZSxvQkFBVSxFQUFFLEtBQUs3QixLQUFMLENBQVdFLFVBQXRDO0FBQWtELHNCQUFZLEVBQUUsS0FBS0YsS0FBTCxDQUFXQztBQUEzRTtBQUFBO0FBQUE7QUFBQTtBQUFBLGdCQUZGLGVBR0UscUVBQUMsNkRBQUQ7QUFBa0IscUJBQVcsRUFBRSxLQUFLSyxXQUFwQztBQUFpRCxzQkFBWSxFQUFFLEtBQUtFLFlBQXBFO0FBQWtGLG9CQUFVLEVBQUUsS0FBS1IsS0FBTCxDQUFXRztBQUF6RztBQUFBO0FBQUE7QUFBQTtBQUFBLGdCQUhGO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQURGO0FBQUE7QUFBQTtBQUFBO0FBQUEsWUFERjtBQVNEOztBQTNGbUM7O0FBaUd2QlAsNEVBQWYiLCJmaWxlIjoiLi9yZWR1eC9jb250YWluZXJzL01haW5Db250YWluZXIuanN4LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7IENvbXBvbmVudCB9IGZyb20gJ3JlYWN0JztcbmltcG9ydCBUb3RhbHNEaXNwbGF5IGZyb20gJy4uL2NvbXBvbmVudHMvVG90YWxzRGlzcGxheS5qc3gnXG5pbXBvcnQgTWFya2V0c0NvbnRhaW5lciBmcm9tICcuL01hcmtldHNDb250YWluZXIuanN4J1xuXG5cbmNsYXNzIE1haW5Db250YWluZXIgZXh0ZW5kcyBDb21wb25lbnQge1xuICBjb25zdHJ1Y3Rvcihwcm9wcykge1xuICAgIHN1cGVyKHByb3BzKTtcbiAgICB0aGlzLnN0YXRlID0ge1xuICAgICAgdG90YWxNYXJrZXRzOiAwLFxuICAgICAgdG90YWxDYXJkczogMCxcbiAgICAgIC8vIG1hcmtldExpc3Q6IHByb3BzLnN0YXRlLFxuICAgICAgbWFya2V0TGlzdDogW10sXG4gICAgICBsYXN0TWFya2V0SWQ6IDEwMDAwLFxuICAgICAgbmV3TG9jYXRpb246ICcnLFxuICAgIH1cbiAgICB0aGlzLmhhbmRsZUNsaWNrID0gdGhpcy5oYW5kbGVDbGljay5iaW5kKHRoaXMpO1xuICAgIHRoaXMuaGFuZGxlQ2hhbmdlID0gdGhpcy5oYW5kbGVDaGFuZ2UuYmluZCh0aGlzKTtcbiAgfVxuXG4gIGhhbmRsZUNoYW5nZShlKSB7XG4gICAgdGhpcy5zZXRTdGF0ZSgoc3RhdGUpID0+IHtcbiAgICAgIHJldHVybiB7XG4gICAgICAgIC4uLnN0YXRlLFxuICAgICAgICBuZXdMb2NhdGlvbjogZS50YXJnZXQudmFsdWVcbiAgICAgIH1cbiAgICB9KVxuICB9XG5cbiAgaGFuZGxlQ2xpY2soZSkge1xuICAgIHRoaXMuc2V0U3RhdGUoKHN0YXRlKSA9PiB7XG4gICAgICAvLyBpbmNyZW1lbnQgdG90YWxNYXJrZXRzIGFuZCBsYXN0TWFya2V0SWRcbiAgICAgIGNvbnN0IGxhc3RNYXJrZXRJZCA9IHRoaXMuc3RhdGUubGFzdE1hcmtldElkICsgMTtcbiAgICAgIGNvbnN0IHRvdGFsTWFya2V0cyA9IHRoaXMuc3RhdGUudG90YWxNYXJrZXRzICsgMTtcbiAgICAgIGNvbnN0IG5ld01hcmtldCA9IHtcbiAgICAgICAgLy8gd2hhdCBnb2VzIGluIGhlcmU/IGEgbmV3IG1hcmtldCBjYXJkIGVsZW1lbnRcbiAgICAgICAgbWFya2V0SWQgOiBsYXN0TWFya2V0SWQsXG4gICAgICAgIGxvY2F0aW9uIDogc3RhdGUubmV3TG9jYXRpb24sXG4gICAgICAgIGNhcmRzIDogMCxcbiAgICAgICAgdG90YWxDYXJkcyA6IHN0YXRlLnRvdGFsQ2FyZHNcbiAgICAgIH07XG4gICAgICBsZXQgbWFya2V0TGlzdCA9IHN0YXRlLm1hcmtldExpc3Quc2xpY2UoKTtcbiAgICAgIG1hcmtldExpc3QucHVzaChuZXdNYXJrZXQpO1xuXG5cbiAgICAgIFxuICAgICAgcmV0dXJuIHtcbiAgICAgICAgLi4uc3RhdGUsXG4gICAgICAgIG1hcmtldExpc3QsXG4gICAgICAgIGxhc3RNYXJrZXRJZCxcbiAgICAgICAgdG90YWxNYXJrZXRzLFxuICAgICAgICBuZXdMb2NhdGlvbjogdGhpcy5zdGF0ZS5uZXdMb2NhdGlvblxuICAgICAgfVxuICAgICAgXG4gICAgICBcblxuICAgICAgLy8gY3JlYXRlIGEgbmV3TWFya2V0IG9iamVjdCBhbmQgaW5zZXJ0IGludG8gbWFya2V0TGlzdFxuICAgIH0sICgpID0+IHsgXG4gICAgICAvL3NhdmUgc29tZXRoaW5nIHRvIGxvY2FsIHN0b3JhZ2VcbiAgICAgICAgY29uc29sZS5sb2coJ2NvbXBvbmVudERpZFVwZGF0ZSEnLCB0aGlzLnN0YXRlKSBcbiAgICAgICAgbG9jYWxTdG9yYWdlLnNldEl0ZW0oJ2tleScsIEpTT04uc3RyaW5naWZ5KHRoaXMuc3RhdGUpKTsgXG4gICAgICB9XG4gICAgKTtcbiAgfVxuXG4gIGNvbXBvbmVudERpZE1vdW50KCkge1xuICAgIGNvbnN0IGNsaWVudFN0YXRlID0gbG9jYWxTdG9yYWdlLmdldEl0ZW0oJ2tleScpO1xuICAgIGNvbnNvbGUubG9nKCdoZWxsbz8nLCBjbGllbnRTdGF0ZSk7XG5cbiAgICBpZiAoY2xpZW50U3RhdGUpIHtcbiAgICAgIGNvbnN0IHsgbGFzdE1hcmtldElkLCBtYXJrZXRMaXN0LCBuZXdMb2NhdGlvbiwgdG90YWxDYXJkcywgdG90YWxNYXJrZXRzIH0gPSBKU09OLnBhcnNlKGNsaWVudFN0YXRlKTtcbiAgICAgIGNvbnNvbGUubG9nKCdjbGllbnRTdGF0ZSBleGlzdHMnLCBtYXJrZXRMaXN0KVxuICAgICAgdGhpcy5zZXRTdGF0ZSgoc3RhdGUpID0+IHtcbiAgICAgICAgcmV0dXJuIHtcbiAgICAgICAgICAuLi5zdGF0ZSxcbiAgICAgICAgICBtYXJrZXRMaXN0LFxuICAgICAgICAgIGxhc3RNYXJrZXRJZCxcbiAgICAgICAgICB0b3RhbE1hcmtldHMsXG4gICAgICAgICAgbmV3TG9jYXRpb24sXG4gICAgICAgICAgdG90YWxDYXJkcyxcbiAgICAgICAgfVxuICAgICAgfSk7XG4gICAgfSBcbiAgICAvLyBlbHNlIHJldHVybiB7IHN0YXRlIH07XG4gIH07XG5cbiAgcmVuZGVyKCkge1xuICAgIHJldHVybihcbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29udGFpbmVyXCI+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwib3V0ZXJCb3hcIj5cbiAgICAgICAgICA8aDEgaWQ9XCJoZWFkZXJcIj5NZWdhTWFya2V0IExveWFsdHkgQ2FyZHM8L2gxPlxuICAgICAgICAgIDxUb3RhbHNEaXNwbGF5IHRvdGFsQ2FyZHM9e3RoaXMuc3RhdGUudG90YWxDYXJkc30gdG90YWxNYXJrZXRzPXt0aGlzLnN0YXRlLnRvdGFsTWFya2V0c30vPlxuICAgICAgICAgIDxNYXJrZXRzQ29udGFpbmVyIGhhbmRsZUNsaWNrPXt0aGlzLmhhbmRsZUNsaWNrfSBoYW5kbGVDaGFuZ2U9e3RoaXMuaGFuZGxlQ2hhbmdlfSBtYXJrZXRMaXN0PXt0aGlzLnN0YXRlLm1hcmtldExpc3R9Lz5cbiAgICAgICAgPC9kaXY+XG4gICAgICA8L2Rpdj5cbiAgICApO1xuICB9XG5cbn1cblxuXG5cbmV4cG9ydCBkZWZhdWx0IE1haW5Db250YWluZXIiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./redux/containers/MainContainer.jsx\n");
-
-/***/ }),
-
-/***/ "./redux/containers/MarketsContainer.jsx":
-/*!***********************************************!*\
-  !*** ./redux/containers/MarketsContainer.jsx ***!
-  \***********************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _components_MarketCreator_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/MarketCreator.jsx */ \"./redux/components/MarketCreator.jsx\");\n/* harmony import */ var _components_MarketsDisplay_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/MarketsDisplay.jsx */ \"./redux/components/MarketsDisplay.jsx\");\n\nvar _jsxFileName = \"/Users/matthewsalvador/CS/codesmith-repos/pp/nextjs-tutorial/redux/containers/MarketsContainer.jsx\";\n\n\n\n\nconst MarketsContainer = props => {\n  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__[\"jsxDEV\"])(\"div\", {\n    className: \"innerbox\",\n    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__[\"jsxDEV\"])(_components_MarketCreator_jsx__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {\n      handleClick: props.handleClick,\n      handleChange: props.handleChange\n    }, void 0, false, {\n      fileName: _jsxFileName,\n      lineNumber: 9,\n      columnNumber: 7\n    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__[\"jsxDEV\"])(_components_MarketsDisplay_jsx__WEBPACK_IMPORTED_MODULE_3__[\"default\"], {\n      marketList: props.marketList\n    }, void 0, false, {\n      fileName: _jsxFileName,\n      lineNumber: 10,\n      columnNumber: 7\n    }, undefined)]\n  }, void 0, true, {\n    fileName: _jsxFileName,\n    lineNumber: 8,\n    columnNumber: 5\n  }, undefined);\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (MarketsContainer);//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZWR1eC9jb250YWluZXJzL01hcmtldHNDb250YWluZXIuanN4PzE4ZTgiXSwibmFtZXMiOlsiTWFya2V0c0NvbnRhaW5lciIsInByb3BzIiwiaGFuZGxlQ2xpY2siLCJoYW5kbGVDaGFuZ2UiLCJtYXJrZXRMaXN0Il0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7QUFBQTtBQUNBO0FBQ0E7O0FBR0EsTUFBTUEsZ0JBQWdCLEdBQUlDLEtBQUQsSUFBVztBQUNsQyxzQkFDRTtBQUFLLGFBQVMsRUFBQyxVQUFmO0FBQUEsNEJBQ0UscUVBQUMscUVBQUQ7QUFBZSxpQkFBVyxFQUFFQSxLQUFLLENBQUNDLFdBQWxDO0FBQStDLGtCQUFZLEVBQUVELEtBQUssQ0FBQ0U7QUFBbkU7QUFBQTtBQUFBO0FBQUE7QUFBQSxpQkFERixlQUVFLHFFQUFDLHNFQUFEO0FBQWdCLGdCQUFVLEVBQUVGLEtBQUssQ0FBQ0c7QUFBbEM7QUFBQTtBQUFBO0FBQUE7QUFBQSxpQkFGRjtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsZUFERjtBQU1ELENBUEQ7O0FBU2VKLCtFQUFmIiwiZmlsZSI6Ii4vcmVkdXgvY29udGFpbmVycy9NYXJrZXRzQ29udGFpbmVyLmpzeC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCwgeyBDb21wb25lbnQgfSBmcm9tICdyZWFjdCc7XG5pbXBvcnQgTWFya2V0Q3JlYXRvciBmcm9tICcuLi9jb21wb25lbnRzL01hcmtldENyZWF0b3IuanN4J1xuaW1wb3J0IE1hcmtldHNEaXNwbGF5IGZyb20gJy4uL2NvbXBvbmVudHMvTWFya2V0c0Rpc3BsYXkuanN4J1xuXG5cbmNvbnN0IE1hcmtldHNDb250YWluZXIgPSAocHJvcHMpID0+IHtcbiAgcmV0dXJuKFxuICAgIDxkaXYgY2xhc3NOYW1lPVwiaW5uZXJib3hcIj5cbiAgICAgIDxNYXJrZXRDcmVhdG9yIGhhbmRsZUNsaWNrPXtwcm9wcy5oYW5kbGVDbGlja30gaGFuZGxlQ2hhbmdlPXtwcm9wcy5oYW5kbGVDaGFuZ2V9Lz5cbiAgICAgIDxNYXJrZXRzRGlzcGxheSBtYXJrZXRMaXN0PXtwcm9wcy5tYXJrZXRMaXN0fS8+XG4gICAgPC9kaXY+XG4gICk7XG59XG5cbmV4cG9ydCBkZWZhdWx0IE1hcmtldHNDb250YWluZXI7XG4iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./redux/containers/MarketsContainer.jsx\n");
-
-/***/ }),
-
-/***/ "./styles/Home.module.css":
-/*!********************************!*\
-  !*** ./styles/Home.module.css ***!
-  \********************************/
-/*! no static exports found */
+/***/ "F5FC":
 /***/ (function(module, exports) {
 
-eval("// Exports\nmodule.exports = {\n\t\"container\": \"Home_container__1EcsU\",\n\t\"main\": \"Home_main__1x8gC\",\n\t\"footer\": \"Home_footer__1WdhD\",\n\t\"title\": \"Home_title__3DjR7\",\n\t\"description\": \"Home_description__17Z4F\",\n\t\"code\": \"Home_code__axx2Y\",\n\t\"grid\": \"Home_grid__2Ei2F\",\n\t\"card\": \"Home_card__2SdtB\",\n\t\"logo\": \"Home_logo__1YbrH\"\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zdHlsZXMvSG9tZS5tb2R1bGUuY3NzP2M1NzkiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBIiwiZmlsZSI6Ii4vc3R5bGVzL0hvbWUubW9kdWxlLmNzcy5qcyIsInNvdXJjZXNDb250ZW50IjpbIi8vIEV4cG9ydHNcbm1vZHVsZS5leHBvcnRzID0ge1xuXHRcImNvbnRhaW5lclwiOiBcIkhvbWVfY29udGFpbmVyX18xRWNzVVwiLFxuXHRcIm1haW5cIjogXCJIb21lX21haW5fXzF4OGdDXCIsXG5cdFwiZm9vdGVyXCI6IFwiSG9tZV9mb290ZXJfXzFXZGhEXCIsXG5cdFwidGl0bGVcIjogXCJIb21lX3RpdGxlX18zRGpSN1wiLFxuXHRcImRlc2NyaXB0aW9uXCI6IFwiSG9tZV9kZXNjcmlwdGlvbl9fMTdaNEZcIixcblx0XCJjb2RlXCI6IFwiSG9tZV9jb2RlX19heHgyWVwiLFxuXHRcImdyaWRcIjogXCJIb21lX2dyaWRfXzJFaTJGXCIsXG5cdFwiY2FyZFwiOiBcIkhvbWVfY2FyZF9fMlNkdEJcIixcblx0XCJsb2dvXCI6IFwiSG9tZV9sb2dvX18xWWJySFwiXG59O1xuIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./styles/Home.module.css\n");
+module.exports = require("react/jsx-runtime");
 
 /***/ }),
 
-/***/ "next/head":
-/*!****************************!*\
-  !*** external "next/head" ***!
-  \****************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ "RNiq":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-eval("module.exports = require(\"next/head\");//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vZXh0ZXJuYWwgXCJuZXh0L2hlYWRcIj81ZWYyIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBIiwiZmlsZSI6Im5leHQvaGVhZC5qcyIsInNvdXJjZXNDb250ZW50IjpbIm1vZHVsZS5leHBvcnRzID0gcmVxdWlyZShcIm5leHQvaGVhZFwiKTsiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///next/head\n");
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, "default", function() { return /* binding */ Home; });
+__webpack_require__.d(__webpack_exports__, "getStaticProps", function() { return /* binding */ getStaticProps; });
+
+// EXTERNAL MODULE: external "react/jsx-runtime"
+var jsx_runtime_ = __webpack_require__("F5FC");
+
+// EXTERNAL MODULE: external "next/head"
+var head_ = __webpack_require__("xnum");
+var head_default = /*#__PURE__*/__webpack_require__.n(head_);
+
+// EXTERNAL MODULE: external "react"
+var external_react_ = __webpack_require__("cDcd");
+
+// CONCATENATED MODULE: ./redux/components/TotalsDisplay.jsx
+
+
+
+
+const TotalsDisplay = props => /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
+  className: "innerbox",
+  id: "totals",
+  children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("label", {
+    htmlFor: "totalCards",
+    children: "Total Cards:"
+  }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("span", {
+    id: "totalCards",
+    children: props.totalCards
+  }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("p", {
+    children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("label", {
+      htmlFor: "totalMarkets",
+      children: "Total Markets:"
+    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("span", {
+      id: "totalCards",
+      children: props.totalMarkets
+    })]
+  })]
+});
+
+/* harmony default export */ var components_TotalsDisplay = (TotalsDisplay);
+// CONCATENATED MODULE: ./redux/components/MarketCreator.jsx
+
+
+
+
+const MarketCreator = props => {
+  return /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
+    children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("h4", {
+      children: "Create New Market"
+    }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
+      className: "user-interface",
+      style: styles['user-inteface'],
+      children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("h4", {
+        children: "Location: "
+      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("input", {
+        id: "text-box",
+        style: styles['text-box'],
+        onChange: props.handleChange
+      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("button", {
+        id: "submit-btn",
+        style: styles['submit-btn'],
+        onClick: props.handleClick,
+        children: "Add Market"
+      })]
+    })]
+  });
+};
+
+const styles = {
+  'text-box': {
+    width: '200px',
+    height: '26px',
+    marginLeft: '0px'
+  },
+  '.user-interface': {
+    display: 'flex',
+    'flex-direction': 'row',
+    'align-items': 'center'
+  }
+};
+/* harmony default export */ var components_MarketCreator = (MarketCreator);
+// CONCATENATED MODULE: ./redux/components/MarketDisplay.jsx
+
+
+
+
+const MarketDisplay = props => {
+  return /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
+    className: "marketBox",
+    style: MarketDisplay_styles.container,
+    children: [/*#__PURE__*/Object(jsx_runtime_["jsxs"])("p", {
+      id: "desc",
+      styles: MarketDisplay_styles.desc,
+      children: ["Market ID: ", props.marketId]
+    }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("p", {
+      id: "desc",
+      styles: MarketDisplay_styles.desc,
+      children: ["Location: ", props.marketLocation]
+    }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("p", {
+      id: "desc",
+      styles: MarketDisplay_styles.desc,
+      children: ["Cards: ", props.marketCards]
+    }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("p", {
+      id: "desc",
+      styles: MarketDisplay_styles.desc,
+      children: ["% of total: ", props.marketCards ? (props.marketCards / props.totalCards * 100).toFixed(2) : '0.00']
+    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("button", {
+      styles: ['text-box'],
+      onClick: () => props.handleAddClick(props.marketId),
+      children: "Add Card"
+    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("button", {
+      styles: ['text-box'],
+      onClick: () => props.handleDeleteClick(props.marketId),
+      children: "Delete Card"
+    })]
+  });
+};
+
+const MarketDisplay_styles = {
+  container: {
+    border: '1px solid black',
+    height: '100px',
+    width: '200px',
+    marginLeft: '0px'
+  },
+  'text-box': {
+    width: '200px',
+    height: '26px',
+    marginLeft: '0px'
+  }
+};
+/* harmony default export */ var components_MarketDisplay = (MarketDisplay);
+// CONCATENATED MODULE: ./redux/components/MarketsDisplay.jsx
+
+
+
+
+
+const MarketsDisplay = props => {
+  const displays = [];
+
+  for (let i = 0; i < props.marketList.length; i++) {
+    displays.push( /*#__PURE__*/Object(jsx_runtime_["jsx"])(components_MarketDisplay, {
+      marketId: props.marketList[i].marketId,
+      marketLocation: props.marketList[i].location,
+      marketCards: props.marketList[i].cards,
+      totalCards: props.marketList[i].totalCards
+    }, `Market Display ${i}`));
+  }
+
+  return /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
+    className: "displayBox",
+    children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("h4", {
+      children: "Markets"
+    }), displays]
+  });
+};
+
+/* harmony default export */ var components_MarketsDisplay = (MarketsDisplay);
+// CONCATENATED MODULE: ./redux/containers/MarketsContainer.jsx
+
+
+
+
+
+
+const MarketsContainer = props => {
+  return /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
+    className: "innerbox",
+    children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])(components_MarketCreator, {
+      handleClick: props.handleClick,
+      handleChange: props.handleChange
+    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(components_MarketsDisplay, {
+      marketList: props.marketList
+    })]
+  });
+};
+
+/* harmony default export */ var containers_MarketsContainer = (MarketsContainer);
+// EXTERNAL MODULE: external "next-persist-test"
+var external_next_persist_test_ = __webpack_require__("a8J8");
+var external_next_persist_test_default = /*#__PURE__*/__webpack_require__.n(external_next_persist_test_);
+
+// CONCATENATED MODULE: ./redux/containers/MainContainer.jsx
+
+
+
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+ // import nextPersist from "../../next-persist.js";
+
+
+
+
+const persistConfig = {
+  allowList: ["lastMarketId", "marketList", "totalCards", "totalMarkets"]
+};
+
+class MainContainer_MainContainer extends external_react_["Component"] {
+  constructor(props) {
+    super(props);
+    this.state = {
+      totalMarkets: 0,
+      totalCards: 0,
+      marketList: props.testState,
+      // marketList: [{,
+      //   marketId : 1,
+      //   location : 'new yuk',
+      //   cards : 0,
+      //   totalCards : 0
+      // }],
+      lastMarketId: 10000,
+      newLocation: ''
+    };
+    this.handleClick = this.handleClick.bind(this);
+    this.handleChange = this.handleChange.bind(this);
+  }
+
+  handleChange(e) {
+    this.setState(state => {
+      return _objectSpread(_objectSpread({}, state), {}, {
+        newLocation: e.target.value
+      });
+    });
+  }
+
+  handleClick(e) {
+    this.setState(state => {
+      // increment totalMarkets and lastMarketId
+      const lastMarketId = this.state.lastMarketId + 1;
+      const totalMarkets = this.state.totalMarkets + 1;
+      const newMarket = {
+        // what goes in here? a new market card element
+        marketId: lastMarketId,
+        location: state.newLocation,
+        cards: 0,
+        totalCards: state.totalCards
+      };
+      let marketList = state.marketList.slice();
+      marketList.push(newMarket);
+      return _objectSpread(_objectSpread({}, state), {}, {
+        marketList,
+        lastMarketId,
+        totalMarkets,
+        newLocation: this.state.newLocation
+      }); // create a newMarket object and insert into marketList
+    }, () => {
+      external_next_persist_test_default.a.writeStorage(persistConfig, this.state);
+    });
+  }
+
+  componentDidMount() {
+    this.setState( // returns state object
+    external_next_persist_test_default.a.getStorage(persistConfig, this.state)); //   const clientState = localStorage.getItem("key");
+    //   console.log("hello?", clientState);
+    //   if (clientState) {
+    //     const {
+    //       lastMarketId,
+    //       marketList,
+    //       newLocation,
+    //       totalCards,
+    //       totalMarkets,
+    //     } = JSON.parse(clientState);
+    //     console.log("clientState exists", marketList);
+    //     this.setState((state) => {
+    //       return {
+    //         ...state,
+    //         marketList,
+    //         lastMarketId,
+    //         totalMarkets,
+    //         newLocation,
+    //         totalCards,
+    //       };
+    //     });
+    //   }
+    // else return { state };
+  }
+
+  render() {
+    return /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
+      className: "container",
+      children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
+        className: "outerBox",
+        children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("h1", {
+          id: "header",
+          children: "MegaMarket Loyalty Cards"
+        }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(components_TotalsDisplay, {
+          totalCards: this.state.totalCards,
+          totalMarkets: this.state.totalMarkets
+        }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(containers_MarketsContainer, {
+          handleClick: this.handleClick,
+          handleChange: this.handleChange,
+          marketList: this.state.marketList
+        })]
+      })
+    });
+  }
+
+}
+
+/* harmony default export */ var containers_MainContainer = (MainContainer_MainContainer);
+// CONCATENATED MODULE: ./pages/index.js
+
+
+
+
+
+function Home({
+  testState
+}) {
+  return /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
+    children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])(head_default.a, {
+      children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("title", {
+        children: "MegaMarket Cards"
+      })
+    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(containers_MainContainer, {
+      testState: testState
+    })]
+  });
+}
+const getStaticProps = async context => {
+  const res = await fetch(`https://api.jsonbin.io/b/605e529b838e525f311917eb`);
+  const testState = await res.json();
+  return {
+    props: {
+      testState
+    }
+  };
+};
 
 /***/ }),
 
-/***/ "react":
-/*!************************!*\
-  !*** external "react" ***!
-  \************************/
-/*! no static exports found */
+/***/ "a8J8":
 /***/ (function(module, exports) {
 
-eval("module.exports = require(\"react\");//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vZXh0ZXJuYWwgXCJyZWFjdFwiPzU4OGUiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEiLCJmaWxlIjoicmVhY3QuanMiLCJzb3VyY2VzQ29udGVudCI6WyJtb2R1bGUuZXhwb3J0cyA9IHJlcXVpcmUoXCJyZWFjdFwiKTsiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///react\n");
+module.exports = require("next-persist-test");
 
 /***/ }),
 
-/***/ "react/jsx-dev-runtime":
-/*!****************************************!*\
-  !*** external "react/jsx-dev-runtime" ***!
-  \****************************************/
-/*! no static exports found */
+/***/ "cDcd":
 /***/ (function(module, exports) {
 
-eval("module.exports = require(\"react/jsx-dev-runtime\");//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vZXh0ZXJuYWwgXCJyZWFjdC9qc3gtZGV2LXJ1bnRpbWVcIj9jZDkwIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBIiwiZmlsZSI6InJlYWN0L2pzeC1kZXYtcnVudGltZS5qcyIsInNvdXJjZXNDb250ZW50IjpbIm1vZHVsZS5leHBvcnRzID0gcmVxdWlyZShcInJlYWN0L2pzeC1kZXYtcnVudGltZVwiKTsiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///react/jsx-dev-runtime\n");
+module.exports = require("react");
+
+/***/ }),
+
+/***/ "xnum":
+/***/ (function(module, exports) {
+
+module.exports = require("next/head");
 
 /***/ })
 
